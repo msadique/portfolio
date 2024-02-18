@@ -1,0 +1,35 @@
+.fullscreen-container2 {
+    width: 80%;
+    position: relative;
+    height: 100vh; /* 100% of the viewport height */
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 0 auto; /* Ensures the container is centered in the viewport */
+    color: aliceblue; /* Applies color to all text inside */
+}
+
+.center-div {
+    width: auto; /* Adjust based on content, or set a specific width */
+    padding: 40px;
+    text-align: left; /* Aligns text inside .center-div to the left */
+    position: absolute; /* Absolute position relative to its positioned parent */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Correctly centers the div */
+}
+
+.center-div h1 {
+    margin-bottom: 30px; /* Adds more space between the heading and the first award entry */
+}
+
+.award-entry:first-of-type {
+    margin-top: 20px; /* Alternatively, adds additional space before the first award entry */
+}
+.award-name {
+    background-color: #add8e6; /* Light blue */
+    color: #004777; /* Dark blue for contrast */
+    padding: 2px 6px;
+    border-radius: 4px;
+}
